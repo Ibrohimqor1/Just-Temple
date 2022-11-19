@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s ease;
+}
+.navbar_inner{
+display: flex;
+justify-content: space-around;
+height: 80px;
+width: 100%;
+align-items: center;
+}
+.container{
+    padding: 80px;
+    margin: auto;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+a{
+    text-decoration: none;
+ color: #fff;
+
+}
+.logo h1{
+    color: rgb(0, 0, 0) !important;
+}
+a:hover{
+    color: rgb(54, 107, 65);
+}
+ li {
+    text-decoration: none;
+    list-style: none;
+ 
+    
+}
+button{
+    padding: 10px 25px;
+    margin-left: 20px;
+    background:rgb(27, 175, 59) ;
+    font-weight: 800;
+    font-size: 15px;
+}
+button:hover{
+    background:rgb(29, 116, 47) ;
+    color: #fff;
+}
+
+.links_nav ul {
+    display: flex;
+    gap: 30px;
+}
+header{
+    height: 78vh;
+    width: 100%;
+    background: rgb(23,152,59);
+    background: linear-gradient(90deg, rgba(23,152,59,1) 0%, rgba(70,172,47,1) 0%, rgba(19,162,31,0.9640231092436975) 97%);
+    
+}
+
+.header_1block_text h1{
+padding-top: 50px;
+padding-left: 150px;
+font-weight: 900;
+font-size: 50px;
+ justify-content: center;
+ align-items: center;
+ color: #111;
+ line-height: 85px;
+
+}
+.header_1block_text span{
+    color: rgb(238, 238, 238);
+}
+.header_1block_text p{
+    width: 1200px;
+    color: black;
+    padding-left:150px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.header_1block_text{
+    width: 50%;
+}
+.image-header{
+    width: 700px;
+    position: relative;
+}
+.header_hamma{
+    display: flex;
+    justify-content: space-between;
+}
+.header_1block_text{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.header_1block_text button{
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 10%;
+}
+.header_1block_text input{
+    padding: 10px 55px;
+    margin-left: 20px;
+
+     border-radius: 10%;
+   
+    font-size: 15px;
+
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.header_hamma{
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1216px){
+    .header_1block_text h1{
+        padding-top: 20px;
+padding-left: 60px;
+font-weight: 900;
+font-size: 30px;
+ justify-content: center;
+ align-items: center;
+ color: #111;
+ line-height: 55px;
+    }
+    .header_1block_text button{
+        margin-left: 220px;
+        margin-top: 50px;
+        border-radius: 10%;
+    }
+   
+    .header_1block_text p{
+        width: 900px;
+        color: black;
+        padding-left:60px;
+        padding-top: 50px;
+    }
+}
